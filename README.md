@@ -35,8 +35,3 @@ Follow these steps to get the project running on your machine:
    ```bash
    git clone [https://github.com/odelia50872/Word-Simulator-Keyboard.git](https://github.com/odelia50872/Word-Simulator-Keyboard.git)
 
-## 💻 Running Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/odelia50872/Word-Simulator-Keyboard.git](https://github.com/odelia50872/Word-Simulator-Keyboard.git)
