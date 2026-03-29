@@ -17,8 +17,8 @@ It features a fully functional custom-built virtual keyboard, allowing users to 
 
 ### 1. Authentication Screen
 The application begins with a secured login interface, featuring Microsoft Word branding. Users must provide their credentials (ID, Username, and Password) to access the editor. This demonstrates state management for inputs and basic simulation of security workflows.
+<img width="591" height="857" alt="צילום מסך 2026-03-29 185946" src="https://github.com/user-attachments/assets/1598e382-33db-4b0a-86e4-01f0fea56cd5" />
 
-<img src="path/to/your/image_4.png" alt="Authentication Screen" width="350"/>
 
 *(Image description: A sleek, dark-blue login interface with input fields for 'Identity', 'Username', and 'Password', with a clear 'W' (Word) logo.)*
 
@@ -27,7 +27,7 @@ The application begins with a secured login interface, featuring Microsoft Word 
 ### 2. Main Editor & Virtual Keyboard
 This image shows the core application. It features a fully functional simulated Microsoft Word ribbon toolbar with standard editing functions. Below the empty document area is a comprehensive, interactive Virtual Keyboard (built in React) that allows for text input. The side panels display current editor states and additional file information, demonstrating complex React state management and synchronized event handling.
 
-<img src="path/to/your/image_3.png" alt="Main Editor Screen" width="100%"/>
+<img width="1425" height="874" alt="צילום מסך 2026-03-29 190006" src="https://github.com/user-attachments/assets/e05af221-f72a-453f-8690-53321f7ac651" />
 
 *(Image description: The complete text editor interface with a rich ribbon toolbar, a file panel, a large virtual QWERTY keyboard, and information panels, all designed with UI familiarity.)*
 
