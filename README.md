@@ -11,18 +11,27 @@ It features a fully functional custom-built virtual keyboard, allowing users to 
 
 ---
 
+---
+
 ## 📸 Screenshots
-*(כדי להציג תמונות, גררי אותן לתוך עורך ה-README ב-GitHub והן יופיעו כאן)*
 
-### Virtual Keyboard Interface
-![Keyboard Screen](https://via.placeholder.com/800x400?text=Virtual+Keyboard+Interface)
+### 1. Authentication Screen
+The application begins with a secured login interface, featuring Microsoft Word branding. Users must provide their credentials (ID, Username, and Password) to access the editor. This demonstrates state management for inputs and basic simulation of security workflows.
 
-### Document Management
-![Editor Screen](https://via.placeholder.com/800x400?text=Text+Editor+Simulation)
+<img src="path/to/your/image_4.png" alt="Authentication Screen" width="350"/>
 
-### Search & Replace Functionality
-![Search Screen](https://via.placeholder.com/800x400?text=Search+and+Replace+Feature)
+*(Image description: A sleek, dark-blue login interface with input fields for 'Identity', 'Username', and 'Password', with a clear 'W' (Word) logo.)*
 
+---
+
+### 2. Main Editor & Virtual Keyboard
+This image shows the core application. It features a fully functional simulated Microsoft Word ribbon toolbar with standard editing functions. Below the empty document area is a comprehensive, interactive Virtual Keyboard (built in React) that allows for text input. The side panels display current editor states and additional file information, demonstrating complex React state management and synchronized event handling.
+
+<img src="path/to/your/image_3.png" alt="Main Editor Screen" width="100%"/>
+
+*(Image description: The complete text editor interface with a rich ribbon toolbar, a file panel, a large virtual QWERTY keyboard, and information panels, all designed with UI familiarity.)*
+
+---
 ---
 
 ## 🚀 Project Overview
