@@ -1,37 +1,61 @@
-# ⌨️ Word Simulator & Virtual Keyboard
+# Word & Keyboard Simulator – Virtual Text Platform
 
-A professional React-based text editor that simulates core features of Microsoft Word, combined with a fully functional on-screen virtual keyboard. This project demonstrates advanced state management, event handling, and file system simulation.
+Word Simulator is a specialized React web application that simulates a modern text editing environment. 
+It features a fully functional custom-built virtual keyboard, allowing users to interact with a document-style interface, manage text data, and perform advanced search operations.
 
 ---
 
-## 🚀 Key Features
-- **Virtual Keyboard:** Custom-built interactive keyboard with support for special function keys (Shift, Caps Lock, Backspace, etc.).
-- **Text Manipulation:** Advanced editing capabilities including **Search and Replace** within the document.
-- **File Management:** Robust system for saving and loading text files locally to simulate a real editor experience.
-- **Real-time Feedback:** A dynamic UI that responds instantly to both physical and virtual keyboard events.
+## 🌐 Live Application
+*(אם העלית את הפרויקט ל-Vercel, שימי כאן את הלינק. אם לא, אפשר למחוק את השורה הזו)*
+* **Frontend (Vercel):** [Link to your Word App](https://your-link-here.vercel.app/)
+
+---
+
+## 📸 Screenshots
+*(כדי להציג תמונות, גררי אותן לתוך עורך ה-README ב-GitHub והן יופיעו כאן)*
+
+### Virtual Keyboard Interface
+![Keyboard Screen](https://via.placeholder.com/800x400?text=Virtual+Keyboard+Interface)
+
+### Document Management
+![Editor Screen](https://via.placeholder.com/800x400?text=Text+Editor+Simulation)
+
+### Search & Replace Functionality
+![Search Screen](https://via.placeholder.com/800x400?text=Search+and+Replace+Feature)
+
+---
+
+## 🚀 Project Overview
+Word Simulator simulates a real document-driven platform where users can:
+* **Interact via Virtual Keyboard:** Complete support for special keys (Shift, Caps, Backspace).
+* **Search & Replace:** Locate specific text patterns and update them instantly.
+* **Manage Documents:** Save and load text data to simulate file persistence.
+* **Synchronized Input:** Seamless integration between physical and virtual typing.
+
+The project focuses on **complex event handling**, **state synchronization**, and **interactive UI components**.
+
+---
+
+## 🏗️ Application Architecture
+`User Input (Physical/Virtual)` ➔ `React State Manager` ➔ `Dynamic Text Buffer` ➔ `Document View` ➔ `Local Storage Simulation`
 
 ---
 
 ## ✨ Engineering Highlights
-- **Complex State Management:** Orchestrating document states and keyboard sync using React Hooks (`useState`, `useEffect`).
-- **Event Handling:** Seamless integration and synchronization between physical hardware inputs and virtual UI triggers.
-- **Modular Architecture:** Highly reusable component structure for keys, toolbars, and display areas.
-- **File I/O Simulation:** Implementation of logic to handle data persistence and document "storage" within the browser environment.
+- **Dynamic Keyboard Logic:** Advanced event mapping for virtual-to-physical key synchronization.
+- **State-Driven Editor:** Real-time text manipulation using React `useState` and `useEffect` hooks.
+- **Custom Search Algorithm:** Integrated search-and-highlight functionality within the UI.
+- **Modular Component Design:** Reusable architecture for keys, toolbars, and display modules.
+- **Interactive UX:** Visual feedback for key presses and document actions.
+- **Optimized Folder Structure:** Scalable organization for React components and logic.
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js
-- **Styling:** CSS3 (Flexbox & Grid Layouts)
-- **Logic:** JavaScript (ES6+)
-
----
-
-## 💻 How to Run Locally
-
-Follow these steps to get the project running on your machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/odelia50872/Word-Simulator-Keyboard.git](https://github.com/odelia50872/Word-Simulator-Keyboard.git)
-
+## 📂 Repository Structure
+```text
+project/
+├── src/
+│   ├── components/  # Keyboard, Editor, and UI modules
+│   ├── hooks/       # Custom logic for text and state
+│   └── assets/      # Styles and static resources
+└── public/          # Static assets
