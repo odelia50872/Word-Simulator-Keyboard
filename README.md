@@ -1,16 +1,28 @@
-# React + Vite
+# ⌨️ Word Simulator & Virtual Keyboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional React-based text editor that simulates core features of Microsoft Word, combined with a fully functional on-screen virtual keyboard.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **Virtual Keyboard:** Custom-built interactive keyboard with support for special function keys.
+- **Text Manipulation:** Advanced editing capabilities including search and replace within the document.
+- **File Management:** Robust system for saving and loading text files locally.
+- **Real-time Feedback:** Dynamic UI that responds to every keystroke and command.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Engineering Highlights
+- **State Management:** Complex text state handling using React Hooks (`useState`, `useEffect`).
+- **Event Handling:** Seamless integration between physical and virtual keyboard events.
+- **Modular Design:** Highly reusable components for keys, display areas, and control panels.
+- **File I/O Simulation:** Implementation of local data persistence for "saving" documents.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **Styling:** CSS3 (Flexbox/Grid)
+- **Logic:** JavaScript (ES6+)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💻 Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/odelia50872/Word-Simulator-Keyboard.git](https://github.com/odelia50872/Word-Simulator-Keyboard.git)
