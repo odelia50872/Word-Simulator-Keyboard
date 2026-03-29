@@ -7,7 +7,7 @@ It features a fully functional custom-built virtual keyboard, allowing users to 
 
 ## 🌐 Live Application
 *(אם העלית את הפרויקט ל-Vercel, שימי כאן את הלינק. אם לא, אפשר למחוק את השורה הזו)*
-* **Frontend (Vercel):** [Link to your Word App](https://your-link-here.vercel.app/)
+* **Frontend (Vercel):** [npx plugins add vercel/vercel-plugin
 
 ---
 
