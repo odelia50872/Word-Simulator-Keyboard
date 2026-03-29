@@ -30,7 +30,7 @@ This image shows the core application. It features a fully functional simulated 
 
 *(Image description: The complete text editor interface with a rich ribbon toolbar, a file panel, a large virtual QWERTY keyboard, and information panels, all designed with UI familiarity.)*
 
----
+
 ---
 
 ## 🚀 Project Overview
